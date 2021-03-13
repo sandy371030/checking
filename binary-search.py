@@ -20,7 +20,7 @@ def binary_search(arr, item):
         # If item is equal, Return it
         else:
             return mid
-    return "Not Found"
+    return "Not availble"
 
 
 
@@ -39,7 +39,7 @@ def binary_search_recursive(arr, low, high, item):
             return binary_search_recursive(arr, mid+1, high, item)
 
     else:
-        return "Not Found"
+        return "Not available"
 
 
 array = [2, 5, 7, 9, 12, 16, 19, 25, 29, 35]
